@@ -7288,3 +7288,36 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.wrapper {
+	position:relative;
+	width:560px;
+}
+
+.wrapper img {
+	max-width:100%;
+	height:auto;
+}
+
+.wrapper iframe {
+	display:none;
+}
+
+.play-btn {
+	position:absolute;
+	z-index:666;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+	background-color:transparent;
+	border:0;
+  
+}
+
+.play-btn:hover {
+	cursor:pointer;
+}
+
+.play-btn:focus {
+	outline:0;
+}
