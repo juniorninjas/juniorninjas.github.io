@@ -773,7 +773,7 @@ ul {
 .single-blog .tag {
   text-align: left;
   display: inline-block;
-  float: left;
+  float: none;
   font-size: 13px;
   font-weight: 300;
   margin-right: 22px;
@@ -7309,7 +7309,7 @@ h1, h2, h3, h4, h5, h6 {
 	top:50%;
 	left:50%;
 	transform:translate(-50%, -50%);
-	background-color:transparent;
+	background-color :transparent;
 	border:0;
   
 }
@@ -7320,4 +7320,39 @@ h1, h2, h3, h4, h5, h6 {
 
 .play-btn:focus {
 	outline:0;
+}
+
+
+.wrapper {
+  background: rgba(0,0,0,0.55);
+  width: 50px;
+  height: 24px;
+  border-radius: 5px;
+  padding-top: 10px;
+  position: relative;
+  margin: 0 auto;
+  top:50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+text-align: center;
+
+}
+
+.tri {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 7px 0 7px 14px;
+  border-color: transparent transparent transparent #ffffff;
+  margin: 0 auto;
+}
+
+
+.testimonial_slider_img:hover .wrapper {
+  background: #cd201f;
+}
+
+.single-home-blog:hover .wrapper{
+  background: #cd201f;
 }
