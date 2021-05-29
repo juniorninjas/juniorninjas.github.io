@@ -7409,6 +7409,6 @@ text-align: center;
 .single-home-blog:hover .wrapper{
   background: #cd201f;
 }
-p{
+.card p{
   padding-left: 100px;
 }
