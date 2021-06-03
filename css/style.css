@@ -7323,7 +7323,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .cont1 {
-  width: 480px;
+  width: 330px;
   height: 250px;
   background: url("//i.ytimg.com/vi/IY7EsTnUSxY/mqdefault.jpg") no-repeat 50% 50% transparent;
   -webkit-transform-style: preserve-3d;
@@ -7332,7 +7332,7 @@ h1, h2, h3, h4, h5, h6 {
   cursor: pointer;
 }
 .cont2 {
-  width: 480px;
+  width: 330px;
   height: 250px;
   background: url("//i.ytimg.com/vi/JDw1ii7aKwg/mqdefault.jpg") no-repeat 50% 50% transparent;
   -webkit-transform-style: preserve-3d;
@@ -7341,7 +7341,7 @@ h1, h2, h3, h4, h5, h6 {
   cursor: pointer;
 }
 .cont3 {
-  width: 480px;
+  width: 330px;
   height: 250px;
   background: url("//i.ytimg.com/vi/kx3DxBbweGY/mqdefault.jpg") no-repeat 50% 50% transparent;
   -webkit-transform-style: preserve-3d;
@@ -7350,7 +7350,7 @@ h1, h2, h3, h4, h5, h6 {
   cursor: pointer;
 }
 .cont4 {
-  width: 480px;
+  width: 330px;
   height: 250px;
   background: url("//i.ytimg.com/vi/t0-Z_LfGwUM/mqdefault.jpg") no-repeat 50% 50% transparent;
   -webkit-transform-style: preserve-3d;
@@ -7359,7 +7359,7 @@ h1, h2, h3, h4, h5, h6 {
   cursor: pointer;
 }
 .cont5 {
-  width: 480px;
+  width: 330px;
   height: 250px;
   background: url("//i.ytimg.com/vi/suJZ9z426P0/mqdefault.jpg") no-repeat 50% 50% transparent;
   -webkit-transform-style: preserve-3d;
@@ -7368,7 +7368,7 @@ h1, h2, h3, h4, h5, h6 {
   cursor: pointer;
 }
 .cont6 {
-  width: 480px;
+  width: 330px;
   height: 250px;
   background: url("//i.ytimg.com/vi/RfbbDgx6l1g/mqdefault.jpg") no-repeat 50% 50% transparent;
   -webkit-transform-style: preserve-3d;
@@ -7409,6 +7409,9 @@ text-align: center;
 .single-home-blog:hover .wrapper{
   background: #cd201f;
 }
-.card p{
-  padding-left: 100px;
+
+#contactForm{
+  width: 50%;
+  justify-content: center;
+  margin-left: 100px;
 }
