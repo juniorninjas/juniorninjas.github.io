@@ -2743,7 +2743,7 @@ ul {
   /* line 164, E:/172 Junior Ninjas Education/172_Junior Ninjas_Education_html/sass/_banner.scss */
   .banner_part:after {
     position: absolute;
-    top: 150px;
+    top: auto;
     max-width: 100%;
     max-height: 100%;
     content: "";
