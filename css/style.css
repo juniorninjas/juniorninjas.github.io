@@ -2734,7 +2734,7 @@ ul {
   width: 41%;
   height: 69%;
   content: "";
-  background-image: url(../img/banner_img.png);
+  background-image: url(../img/banner_img.gif);
   background-size: 100% 100%;
   right: 9%;
 }
@@ -2747,13 +2747,13 @@ ul {
     max-width: 100%;
     max-height: 100%;
     content: "";
-    background-image: url(../img/banner_img.png);
+    background-image: url(../img/banner_img.gif);
     background-size: contain;
     right: 0;
     left: 0;
     text-align: center;
     margin: 0 auto;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
   }
 }
 
@@ -2765,13 +2765,13 @@ ul {
     max-width: 100%;
     max-height: 100%;
     content: "";
-    background-image: url(../img/banner_img.png);
+    background-image: url(../img/banner_img.gif);
     background-size: contain;
     right: 0;
     left: 0;
     text-align: center;
     margin: 0 auto;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
   }
 }
 
@@ -2783,13 +2783,13 @@ ul {
     max-width: 100%;
     max-height: 100%;
     content: "";
-    background-image: url(../img/banner_img.png);
+    background-image: url(../img/banner_img.gif);
     background-size: contain;
     right: 0;
     left: 0;
     text-align: center;
     margin: 0 auto;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
   }
 }
 
@@ -2800,12 +2800,12 @@ ul {
     max-width: 100%;
     max-height: 100%;
     content: "";
-    background-image: url(../img/banner_img.png);
+    background-image: url(../img/banner_img.gif);
     background-size: contain;
     right: 5%;
     bottom: 0;
     top: auto;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
   }
 }
 
