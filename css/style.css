@@ -2753,7 +2753,7 @@ ul {
     left: 0;
     text-align: center;
     margin: 0 auto;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
   }
 }
 
@@ -2771,7 +2771,7 @@ ul {
     left: 0;
     text-align: center;
     margin: 0 auto;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
   }
 }
 
@@ -2789,7 +2789,7 @@ ul {
     left: 0;
     text-align: center;
     margin: 0 auto;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
   }
 }
 
@@ -2805,7 +2805,7 @@ ul {
     right: 5%;
     bottom: 0;
     top: auto;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
   }
 }
 
