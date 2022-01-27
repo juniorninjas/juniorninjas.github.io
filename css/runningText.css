@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+
+h12
+{
+  position: relative;
+  font-size : 4vw;
+  color: #fffeff;
+  -webkit-text-stroke: 0.3vw #ffffff;
+  text-transform: uppercase;
+}
+h12:before
+{
+    content:attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    color: #4261ee;
+    -webkit-text-stroke: 0vw #f3abe9;
+    border-right: 2px solid #4261ee;;
+    overflow: hidden;
+    animation:animate 6s linear infinite ;
+}
+
+h13
+{
+  position: relative;
+  font-size : 4vw;
+  color: #fffeff;
+  -webkit-text-stroke: 0.3vw #ffffff;
+  text-transform: uppercase;
+}
+h13:before
+{
+    content:attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    color: #4261ee;
+    -webkit-text-stroke: 0vw #f3abe9;
+    border-right: 2px solid #4261ee;;
+    overflow: hidden;
+    animation:animate 6s linear infinite ;
+}
+
+
+@keyframes animate {
+    0%,10%,100%
+    {
+        width: 0;
+    }
+    70%,90%
+    {
+        width: 100%;
+    }
+}
