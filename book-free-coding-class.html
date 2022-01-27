@@ -29,8 +29,8 @@
     <link rel="stylesheet" href="css/slick.css">
     <!-- style CSS -->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
-    <script src="https://unpkg.com/jquery@3.3.1/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
     
     <style>
         #loader {
@@ -215,7 +215,7 @@
         
            <div class="container register">
             <div class="container" style="width: fit-content;">
-                <form method="post" autocomplete="off" name="book-free-coding-class">
+                <form method="post" name="book-free-coding-class">
                     <h3 style="color: white; text-align: center;">Book a free session with us </h3>
                     <div class="mb-3">
                         <label for="exampleInputName" class="form-label"></label>
@@ -230,6 +230,15 @@
                       <label for="exampleInputEmail1" class="form-label"></label>
                       <input type="email" name="Email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your email">
                       <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                    <label ></label>
+                    <select name="Grade" id="Grade" >
+                        <option value="class6-8">Class 6 - 8</option>
+                        <option value="class9-10">Class 9 - 10</option>
+                        <option value="class11-12">Class 11 -12</option>
+                        <option value="new-to-coding">New to coding/computer</option>
+                    </select>
                     </div>
                     <div class="mb-3">
                         <label for="ReferralCode" class="form-label"></label>
@@ -340,7 +349,7 @@
 <script src="js/jquery.validate.min.js"></script>
 <script src="js/mail-script.js"></script>
 <script src="js/contact.js"></script>
-
+<script src="https://unpkg.com/jquery@3.3.1/dist/jquery.min.js"></script>
 <!-- slick js -->
 <script src="js/slick.min.js"></script>
 <script src="js/jquery.counterup.min.js"></script>
