@@ -21,7 +21,7 @@ h12:before
     -webkit-text-stroke: 0vw #f3abe9;
     border-right: 2px solid #4261ee;;
     overflow: hidden;
-    animation:animate 6s linear infinite ;
+    animation:animate 3s linear infinite ;
 }
 
 h13
@@ -42,11 +42,10 @@ h13:before
     height: 100%;
     color: #4261ee;
     -webkit-text-stroke: 0vw #f3abe9;
-    border-right: 2px solid #4261ee;;
+    border-right: 2px solid #4261ee;
     overflow: hidden;
-    animation:animate 6s linear infinite ;
+    animation:animate 3s linear infinite;
 }
-
 
 @keyframes animate {
     0%,10%,100%
